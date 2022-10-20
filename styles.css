@@ -1,4 +1,4 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap'); */
+/*@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');*/
 
 /* ! tailwindcss v3.2.0 | MIT License | https://tailwindcss.com */
 
@@ -549,8 +549,20 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.fixed{
+  position: fixed;
+}
+
 .relative{
   position: relative;
+}
+
+.bottom-0{
+  bottom: 0px;
+}
+
+.right-0{
+  right: 0px;
 }
 
 .mx-auto{
@@ -570,12 +582,20 @@ video {
   margin-bottom: 0.5rem;
 }
 
+.ml-4{
+  margin-left: 1rem;
+}
+
 .block{
   display: block;
 }
 
 .flex{
   display: flex;
+}
+
+.h-4{
+  height: 1rem;
 }
 
 .min-h-screen{
@@ -586,12 +606,20 @@ video {
   width: 100%;
 }
 
+.w-4{
+  width: 1rem;
+}
+
 .max-w-screen-md{
   max-width: 768px;
 }
 
 .flex-col{
   flex-direction: column;
+}
+
+.items-center{
+  align-items: center;
 }
 
 .justify-center{
@@ -614,6 +642,10 @@ video {
 
 .rounded-lg{
   border-radius: 0.5rem;
+}
+
+.rounded{
+  border-radius: 0.25rem;
 }
 
 .border{
@@ -660,6 +692,10 @@ video {
 
 .p-3{
   padding: 0.75rem;
+}
+
+.p-10{
+  padding: 2.5rem;
 }
 
 .py-6{
@@ -713,6 +749,10 @@ video {
   font-weight: 500;
 }
 
+.font-bold{
+  font-weight: 700;
+}
+
 .tracking-tight{
   letter-spacing: -0.025em;
 }
@@ -732,10 +772,44 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+.opacity-0{
+  opacity: 0;
+}
+
+.opacity-100{
+  opacity: 1;
+}
+
 .shadow-sm{
   --tw-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
   --tw-shadow-colored: 0 1px 2px 0 var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.shadow-md{
+  --tw-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.transition{
+  transition-property: color, background-color, border-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-text-decoration-color, -webkit-backdrop-filter;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-text-decoration-color, -webkit-backdrop-filter;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+.duration-300{
+  transition-duration: 300ms;
+}
+
+.ease-out{
+  transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
+}
+
+.ease-in{
+  transition-timing-function: cubic-bezier(0.4, 0, 1, 1);
 }
 
 * {
