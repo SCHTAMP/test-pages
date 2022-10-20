@@ -1,5 +1,7 @@
 <html>
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
     <link rel="stylesheet" type="text/css" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -39,6 +41,24 @@
         </div>
       </div>
     </div>
-  </template></script>
+  </template>
+    
+  <section class="relative flex min-h-screen flex-col justify-center overflow-hidden bg-white py-6 dark:bg-gray-900 sm:py-12">
+      <div class="mx-auto max-w-screen-md rounded-xl py-8 px-4 dark:bg-gray-800 lg:py-16">
+        <h2 class="mb-4 text-center text-4xl font-extrabold tracking-tight text-gray-900 dark:text-white">Unknown Site</h2>
+        <p class="mb-8 text-center font-light text-gray-500 dark:text-gray-400 sm:text-xl lg:mb-16">Ну... Привет. А ты знаешь что такое азарт? Хочешь, чтобы другие люди, учавствую в соревнованиях, помогли тебе заработать? Оставляй свои данные и мы с тобой свяжемся.</p>
+        <form action="#" class="space-y-8">
+          <div>
+            <label for="email" class="mb-2 block text-sm font-medium text-gray-900 dark:text-gray-300">Ваш псевдоним/никнейм</label>
+            <input type="email" id="email" class="focus:ring-primary-500 focus:border-primary-500 dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light block w-full rounded-lg border border-gray-300 bg-gray-50 p-2.5 text-sm text-gray-900 shadow-sm dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400" placeholder="Unknown" required />
+          </div>
+          <div>
+            <label for="subject" class="mb-2 block text-sm font-medium text-gray-900 dark:text-gray-300">Ваш номер телефона</label>
+            <input type="text" id="subject" class="focus:ring-primary-500 focus:border-primary-500 dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light block w-full rounded-lg border border-gray-300 bg-gray-50 p-3 text-sm text-gray-900 shadow-sm dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400" placeholder="000-0000" required />
+          </div>
+          <button type="submit" class="rounded-lg py-3 px-5 text-center text-sm font-medium text-white focus:outline-none focus:ring-4 focus:ring-gray-300 dark:bg-gray-700 hover:dark:bg-gray-900 dark:focus:ring-gray-600 sm:w-fit">Отправить</button>
+        </form>
+      </div>
+  </section>
 </body>
 </html>
