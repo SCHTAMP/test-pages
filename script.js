@@ -32,6 +32,6 @@ window.alertComponent = function () {
     defaultInfoMessage: `This alert contains info message.`,
     defaultSuccessMessage: `This alert contains success message.`,
     defaultWarningMessage: `This alert contains warning message.`,
-    defaultDangerMessage: `This alert contains danger message.`,
+    defaultDangerMessage: `Привет, ты лох.Привет, ты лох.Привет, ты лох.Привет, ты лох.Привет, ты лох.Привет, ты лох.Привет, ты лох.`,
   }
 }
